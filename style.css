@@ -6,7 +6,12 @@ body{
 
 /* ===== SEÇÃO DO DISPLAY ===== */
 
-
+.bloco-block{
+    background-color: rgb(65, 109, 255);
+ text-align: center;
+ display: block;
+ width: 100%;
+}
 
 /* ===== SEÇÃO DO POSITION ===== */
 
