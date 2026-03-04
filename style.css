@@ -3,15 +3,24 @@
 body{
     background-color: rgb(172, 205, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+main{
+    margin-top: 6%;
+}
+
+#block{
+    
 }
 
 /* ===== SEÇÃO DO DISPLAY ===== */
 
 .bloco-block{
     background-color: rgb(65, 109, 255);
- text-align: center;
- display: block;
- width: 100%;
+    text-align: center;
+    display: block;
+    width: 500;
 }
 
 /* ===== SEÇÃO DO POSITION ===== */
