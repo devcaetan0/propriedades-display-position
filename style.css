@@ -6,9 +6,14 @@ body{
     text-align: center;
 }
 
-#block{
-    display: flex;
-    text-align: center;
+.barra{
+    background-color: rgb(65, 109, 255); 
+    width: 200px;
+    padding: 5px;
+    color: black;
+    border-radius: 8px;
+    border: 2px solid white;
+    margin: 8px auto;
 }
 
 main{
@@ -17,10 +22,50 @@ main{
 
 /* ===== SEÇÃO DO DISPLAY ===== */
 
+
 .bloco-block{
-    background-color: rgb(65, 109, 255);
+   
     display: block;
-    width: 500;
+     text-align: center;
+    margin: 10px auto;
+    gap: 15px;
+    
+}
+    #block{
+    text-align: center;
+    }
+
+    .inline{
+    display: inline;
+    justify-items: center;
+    gap: 15px;
+   
+    }
+
+    .inline-block{
+display: inline-block;
+justify-items: center;
+gap: 15px;
+    }
+
+
+    .flex{
+display: flex;
+justify-content: center;
+gap: 15px;
+    }
+
+.inline-flex{
+display: inline-flex;
+justify-items: center;
+gap: 15px;
+}
+
+.grid{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 15px;
+justify-items: center;
 }
 
 /* ===== SEÇÃO DO POSITION ===== */
