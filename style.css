@@ -4,6 +4,8 @@ body{
     background-color: rgb(172, 205, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
 }
 
 .barra{
@@ -17,55 +19,47 @@ body{
 }
 
 main{
-    margin-top: 6%;
+    margin-top: 8%;
 }
 
 /* ===== SEÇÃO DO DISPLAY ===== */
 
-
 .bloco-block{
-   
     display: block;
-     text-align: center;
+    text-align: center;
     margin: 10px auto;
     gap: 15px;
-    
 }
-    #block{
-    text-align: center;
-    }
 
-    .inline{
+.inline{
     display: inline;
     justify-items: center;
     gap: 15px;
-   
-    }
+}
 
-    .inline-block{
-display: inline-block;
-justify-items: center;
-gap: 15px;
-    }
+.inline-block{
+    display: inline-block;
+    justify-items: center;
+    gap: 15px;
+}
 
-
-    .flex{
-display: flex;
-justify-content: center;
-gap: 15px;
-    }
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 
 .inline-flex{
-display: inline-flex;
-justify-items: center;
-gap: 15px;
+    display: inline-flex;
+    justify-items: center;
+    gap: 15px;
 }
 
 .grid{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-gap: 15px;
-justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    justify-items: center;
 }
 
 /* ===== SEÇÃO DO POSITION ===== */
