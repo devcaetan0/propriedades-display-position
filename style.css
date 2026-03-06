@@ -19,6 +19,17 @@ body{
     font-size: 40;
 }
 
+.linha{
+    height: 8px;
+    background-color: white
+    
+}
+
+section{
+   
+    padding-bottom: 50px;
+}
+
 main{
     margin-top: 12%;
 }
