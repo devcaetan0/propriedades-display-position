@@ -36,7 +36,7 @@ main{
 
 /* ===== SEÇÃO DO DISPLAY ===== */
 
-#bloco-block{
+#block{
     display: block;
     text-align: center;
     margin: 10px auto;
@@ -97,11 +97,20 @@ main{
     display: flex;
     position: absolute;
     gap: 15px;
+    align-items: center;
 }
 
 #relative{
     display: flex;
     position: relative;
+}
+
+.bloco-relative{
+    background-color: rgb(255, 255, 255); 
+    width: 100;
+    height: 100;
+    border-radius: 3px;
+    margin: 10;
 }
 
 #sticky{

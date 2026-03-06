@@ -26,7 +26,7 @@
             <p>O Position Block faz o elemento ocupar toda a largura disponível, forçando assim a quebra de linha antes e depois.
             A largura sempre vai ocupar 100% da largura do elemento pai.</p>
 
-            <div id="bloco-block">
+            <div id="block">
                 <div class="barra"><p>Teste 1</p></div>
                 <div class="barra"><p>Teste 2</p></div>
                 <div class="barra"><p>Teste 3</p></div>
@@ -130,9 +130,17 @@
             Ela é útil para criar elementos para um ponto de referência, podendo modificá-los para criar uma "âncora".</p>
 
             <div id="relative"> 
-                <div class="barra"><p>Teste 1</p></div>
-                <div class="barra"><p>Teste 2</p></div>
-                <div class="barra"><p>Teste 3</p></div>
+                <div class="barra"><p>Teste 1</p>
+                    <div class="bloco-relative"></div>
+                </div>
+
+                <div class="barra"><p>Teste 2</p>
+                    <div class="bloco-relative"></div>
+                </div>
+
+                <div class="barra"><p>Teste 3</p>
+                    <div class="bloco-relative"></div>
+                </div>
             </div>     
         </section>
 
@@ -157,14 +165,13 @@
             <p>O absolute é a propriedade de maior potência na hierarquia, desrespeitando totalmente o fluxo normal do documento.
             Ela é o problema da divisão, um rei indomável que não altera seu lugar nem tamanho na página.</p>
 
-            <div id="absolute"> 
+            <div id="absolute">
                 <div class="barra"><p>Teste 1</p></div>
                 <div class="barra"><p>Teste 2</p></div>
                 <div class="barra"><p>Teste 3</p></div>
                 <div class="barra"><p>Teste 4</p></div>
             </div>           
         </section>
-
 
     </main>
 
