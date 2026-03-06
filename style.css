@@ -13,14 +13,25 @@ body{
     width: 350px;
     padding: 5px;
     color: black;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 2px solid white;
-    margin: 8px auto;
+    margin: 10px auto;
     font-size: 40;
 }
 
+.linha{
+    display: flex;
+    width: 100%;
+    height: 10px;
+    background-color: white
+}
+
+section{
+    padding-bottom: 50px;
+}
+
 main{
-    margin-top: 12%;
+    margin-top: 9%;
 }
 
 /* ===== SEÇÃO DO DISPLAY ===== */
@@ -65,7 +76,6 @@ main{
 
 #flow-root{
   display: flow-root;
-  border: 2px solid black;
 }
 
 /* ===== SEÇÃO DO POSITION ===== */
@@ -79,8 +89,26 @@ main{
     z-index: 1000;
     text-align: center;
     font-size: large;
+    border-bottom: 10px solid white;
 }
 
 #static{
+    display: flex;
     position: static;
+}
+
+#absolute{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+}
+
+#relative{
+    display: flex;
+    position: relative;
+}
+
+#sticky{
+    display: flex;
+    position: sticky;
 }
