@@ -67,6 +67,13 @@ main{
     gap: 15px;
 }
 
+#grid{
+    display: grid;
+     grid-template-columns: repeat(3,2fr);
+    gap: 15px;
+    justify-items: center;
+}
+
 #block-grid{
     display: grid;
     grid-template-columns: repeat(3,2fr);
