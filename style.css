@@ -10,12 +10,13 @@ body{
 
 .barra{
     background-color: rgb(65, 109, 255); 
-    width: 200px;
+    width: 350px;
     padding: 5px;
     color: black;
     border-radius: 8px;
     border: 2px solid white;
     margin: 8px auto;
+    font-size: 40;
 }
 
 main{
