@@ -56,11 +56,16 @@ main{
     gap: 15px;
 }
 
-#grid{
+#block-grid{
     display: grid;
     grid-template-columns: repeat(3,2fr);
     gap: 15px;
     justify-items: center;
+}
+
+#flow-root{
+  display: flow-root;
+  border: 2px solid black;
 }
 
 /* ===== SEÇÃO DO POSITION ===== */
