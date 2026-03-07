@@ -10,17 +10,16 @@ body{
 
 .barra{
     background-color: rgb(65, 109, 255); 
-    width: 350px;
+    width: 200px;
     padding: 5px;
     color: black;
     border-radius: 10px;
     border: 2px solid white;
     margin: 10px auto;
-    font-size: 40;
+    font-size: 40px;
 }
 
 .linha{
-    display: flex;
     width: 100%;
     height: 10px;
     background-color: white
@@ -43,16 +42,15 @@ main{
     gap: 15px;
 }
 
-#inline{
+.inline{
     display: inline;
-    justify-items: center;
-    gap: 15px;
+    margin: 10px;
+   
 }
 
-#inline-block{
+.inline-block{
     display: inline-block;
-    justify-items: center;
-    gap: 15px;
+margin: 10px;
 }
 
 #flex{
