@@ -4,15 +4,16 @@ body{
     background-color: rgb(172, 205, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 1, 80);
     font-size: 25px;
+    font-weight: bold;
 }
 
 .barra{
     background-color: rgb(65, 109, 255); 
     width: 200px;
     padding: 5px;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     border: 2px solid white;
     margin: 10px auto;
