@@ -84,6 +84,23 @@ main{
     display: flow-root;
 }
 
+#inline-flow{
+    display: inline-flow;
+    gap: 15px;
+}
+
+#inline-grid{
+    display: inline-grid;
+    grid-template-columns: repeat(3,2fr);
+    gap: 15px;
+    justify-items: center;
+}
+
+#inline-flow-root{
+    display: inline-flow-root;
+    gap: 15px;
+}
+
 /* ===== SEÇÃO DO POSITION ===== */
 
 #header-fixed{
