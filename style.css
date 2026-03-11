@@ -73,6 +73,27 @@ main{
     justify-items: center;
 }
 
+#inline-grid{
+    display: inline-grid;
+    ;
+}
+
+#Flow-root{
+        display: flow-root;
+}
+
+#Table{
+    display: table;
+}
+
+#Block-Flow{
+    display: Block;
+}
+
+#Block-Flex{
+    display: block;
+}
+
 #block-grid{
     display: grid;
     grid-template-columns: repeat(3,2fr);
