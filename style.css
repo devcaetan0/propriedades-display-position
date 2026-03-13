@@ -183,6 +183,5 @@ main{
     display: flex;
     gap: 15px;
     position: sticky;
-    z-index: 100000;
-    top: 150px;
+    top: 200px;
 }
