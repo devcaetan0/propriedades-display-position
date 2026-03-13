@@ -10,21 +10,20 @@
 
 <body>
 
-    <nav>
-        <header id="header-fixed">
+    <header id="header-fixed">
+        <nav>
             <h1>PROPRIEDADES DO CSS</h1>
             <p>O position fixed realiza a sobreposição do objeto em relação à página, perfeito para banners como é o caso desse título.</p>
-        </header>
-    </nav>
+        </nav>
+    </header>
 
     <main>
 
-    <!-- ===== SECTIONS PARA OS TIPOS DE DISPLAY ===== -->
+        <!-- ===== SEÇÃO DOS DISPLAYS ===== --> 
 
         <section>
             <h2>Display Block</h2>
-            <p>O Position Block faz o elemento ocupar toda a largura disponível, forçando assim a quebra de linha antes e depois.
-            A largura sempre vai ocupar 100% da largura do elemento pai.</p>
+            <p>O Position Block faz o elemento ocupar toda a largura disponível, forçando assim a quebra de linha antes e depois. A largura sempre vai ocupar 100% da largura do elemento pai.</p>
 
             <div id="block">
                 <div class="barra"><p>Teste 1</p></div>
@@ -40,18 +39,17 @@
             <p>O display inline ele gera uma ou mais caixas de elemento em linha que não geram quebras de linha antes ou depois de si mesmas.</p>
 
             <div>
-                <div class=" barra inline">Teste Teste Teste Teste Teste 1</div>
-                <div class=" barra inline">Teste Teste Teste Teste Teste 2</div>
-                <div class=" barra inline">Teste Teste Teste Teste Teste 3</div>
+                <div class="barra inline">Teste Teste Teste Teste Teste 1</div>
+                <div class="barra inline">Teste Teste Teste Teste Teste 2</div>
+                <div class="barra inline">Teste Teste Teste Teste Teste 3</div>
             </div>
         </section>
 
-            <div class="linha"></div>
+        <div class="linha"></div>
 
         <section>
             <h2>Display Inline-Block</h2>
-            <p>O inline block é a junção do block e do inline exibindo as coisas lado a lado numa linha só invés de quebrar o bloco como aconteceria num block normal,
-            ele se mantém na mesma linha.</p>
+            <p>O inline block é a junção do block e do inline exibindo as coisas lado a lado numa linha só invés de quebrar o bloco como aconteceria num block normal, ele se mantém na mesma linha.</p>
 
             <div>
                 <div class="barra inline-block"><p>Teste 1</p></div>
@@ -60,7 +58,7 @@
             </div>
         </section>
 
-            <div class="linha"></div>
+        <div class="linha"></div>
 
         <section>
             <h2>Display Flex</h2>
@@ -77,9 +75,7 @@
 
         <section>
             <h2>Display Inline Flex</h2>
-            <p>O display inline flex é parecido com o flex mas ele tem um comportamento de forma inline. 
-            Ele ocupa apenas o tamanho do conteúdo ou seja fica na mesma linha que os outros elementos. Já o flex ocupa a linha inteira, quebra linha automaticamente. 
-            Flex bloco grande, inline flex pequeno e do tamanho colocado.</p>
+            <p>O display inline flex é parecido com o flex mas ele tem um comportamento de forma inline. Ele ocupa apenas o tamanho do conteúdo ou seja fica na mesma linha que os outros elementos. Já o flex ocupa a linha inteira, quebra linha automaticamente. Flex bloco grande, inline flex pequeno e do tamanho colocado.</p>
 
             <div id="inline-flex">
                 <div class="barra">Teste 1</div>
@@ -92,8 +88,7 @@
 
         <section>
             <h2>Display Grid</h2>
-            <p>O display grid é baseado em sistema de layout em grade. Resolve problemas de layout. Diferente do flexbox, que organiza em uma unica direção 
-            o grid organiza em 2 dimensões ao mesmo tempo.</p>
+            <p>O display grid é baseado em sistema de layout em grade. Resolve problemas de layout. Diferente do flexbox, que organiza em uma unica direção o grid organiza em 2 dimensões ao mesmo tempo.</p>
 
             <div id="grid"> 
                 <div class="barra"><p>Teste 1</p></div>
@@ -109,9 +104,7 @@
 
         <section>
             <h2>Display Inline-Grid</h2>
-            <p>ele define um elemento como um container como um grid mas em nível de linha como o inline, ou seja ele combina a estrutura de linhas e colunas de um grid mas
-            com o coportamento de linha. O que significa que o conteiner não irá ocupar toda a largura da linha, permitindo que outros elementos fiquem ao seu lado
-            </p>
+            <p>ele define um elemento como um container como um grid mas em nível de linha como o inline, ou seja ele combina a estrutura de linhas e colunas de um grid mas com o coportamento de linha. O que significa que o conteiner não irá ocupar toda a largura da linha, permitindo que outros elementos fiquem ao seu lado</p>
 
             <div id="inline-grid"> 
                 <div class="barra"><p>Teste 1</p></div>
@@ -139,19 +132,23 @@
             </div>       
         </section>
         
-          <div class="linha"></div>
+        <div class="linha"></div>
 
         <section>
             <h2>Display Table</h2>
             <p>O display Table faz com que os elementos em HTML se comportem como Tabelas tradicionais, ou seja, com linhas e colunas.</p>
 
             <div id="Table"> 
-                <div class="barra"><p>Teste 1</p></div>
-                <div class="barra"><p>Teste 2</p></div>
-                <div class="barra"><p>Teste 3</p></div>
-                <div class="barra"><p>Teste 4</p></div>
-                <div class="barra"><p>Teste 5</p></div>
-                <div class="barra"><p>Teste 6</p></div>
+                <div class="linha-table">
+                    <div class="barra-table"><p>Teste 1</p></div>
+                    <div class="barra-table"><p>Teste 2</p></div>
+                    <div class="barra-table"><p>Teste 3</p></div>
+                </div>
+                <div class="linha-table">
+                    <div class="barra-table"><p>Teste 4</p></div>
+                    <div class="barra-table"><p>Teste 5</p></div>
+                    <div class="barra-table"><p>Teste 6</p></div>
+                </div>
             </div>       
         </section>
         
@@ -193,7 +190,7 @@
             <h2>Display Block Grid</h2>
             <p>O display block grid organiza elementos em blocos (quadrados/retângulos) na tela. Ele cria uma grade de linhas e colunas, facilitando montar layouts de sites.</p>
 
-             <div id="block-grid"> 
+            <div id="block-grid"> 
                 <div class="barra"><p>Teste 1</p></div>
                 <div class="barra"><p>Teste 2</p></div>
                 <div class="barra"><p>Teste 3</p></div>
@@ -209,23 +206,7 @@
             <h2>Display Block Flow Root</h2>
             <p>O display block Flow Root ocupa toda a largura disponível e evita problemas comuns de layout, como margens que se misturam ou elementos com float que ultrapassam o limite da caixa. É uma forma de manter o layout mais organizado e previsível.</p>
 
-             <div id="flow-root"> 
-                <div class="barra"><p>Teste 1</p></div>
-                <div class="barra"><p>Teste 2</p></div>
-                <div class="barra"><p>Teste 3</p></div>
-                <div class="barra"><p>Teste 4</p></div>
-                <div class="barra"><p>Teste 5</p></div>
-                <div class="barra"><p>Teste 6</p></div>
-            </div>
-        </section>
-
-        <div class="linha"></div>
-
-        <section>
-            <h2>Display Block Flow Root</h2>
-            <p>O display block Flow Root ocupa toda a largura disponível e evita problemas comuns de layout, como margens que se misturam ou elementos com float que ultrapassam o limite da caixa. É uma forma de manter o layout mais organizado e previsível.</p>
-
-             <div id="flow-root"> 
+            <div id="flow-root"> 
                 <div class="barra"><p>Teste 1</p></div>
                 <div class="barra"><p>Teste 2</p></div>
                 <div class="barra"><p>Teste 3</p></div>
@@ -241,7 +222,7 @@
             <h2>Display Inline Flow</h2>
             <p>O display inline flow combina o comportamento de um elemento inline com o fluxo de bloco. Ele ocupa apenas o espaço necessário para seu conteúdo, mantendo-se na mesma linha que outros elementos inline.</p>
 
-             <div id="inline-flow"> 
+            <div id="inline-flow"> 
                 <div class="barra"><p>Teste 1</p></div>
                 <div class="barra"><p>Teste 2</p></div>
                 <div class="barra"><p>Teste 3</p></div>
@@ -254,13 +235,13 @@
             <h2>Display Inline Grid</h2>
             <p>O display inline grid é uma variação do grid que se comporta como um elemento inline. Ele cria um layout em grade, mas ocupa apenas o espaço necessário para seu conteúdo, permitindo que outros elementos fiquem na mesma linha.</p>
 
-             <div id="inline-grid"> 
-                <div class="barra"><p>Teste 1</p></div>
-                <div class="barra"><p>Teste 2</p></div>
-                <div class="barra"><p>Teste 3</p></div>
-                <div class="barra"><p>Teste 4</p></div>
-                <div class="barra"><p>Teste 5</p></div>
-                <div class="barra"><p>Teste 6</p></div>
+            <div id="inline-grid"> 
+                <div class="barra">Teste Teste Teste 1</div>
+                <div class="barra">Teste Teste Teste 2</div>
+                <div class="barra">Teste Teste Teste 3</div>
+                <div class="barra">Teste Teste Teste 4</div>
+                <div class="barra">Teste Teste Teste 5</div>
+                <div class="barra">Teste Teste Teste 6</div>
             </div>
         </section>
 
@@ -270,7 +251,7 @@
             <h2>Display Inline Flow-Root</h2>
             <p>O display inline flow-root combina o comportamento inline com a criação de um novo contexto de formatação de bloco. Ocupa apenas o espaço necessário do conteúdo, evitando problemas de marginzinha que se misturam.</p>
 
-             <div id="inline-flow-root"> 
+            <div id="inline-flow-root"> 
                 <div class="barra"><p>Teste 1</p></div>
                 <div class="barra"><p>Teste 2</p></div>
                 <div class="barra"><p>Teste 3</p></div>
@@ -279,26 +260,11 @@
 
         <div class="linha"></div>
 
-    <!-- ===== SECTIONS PARA OS TIPOS DE POSITIONS ===== -->
+        <!-- ===== SEÇÃO DOS POSITIONS ===== --> 
 
-        <section>
-            <h2>Position Static</h2>
-            <p>O static obedece o fluxo padrão do documento HTML, ignorando padding e margin e mantendo o elemento o máximo na extremidade possível.
-            Não é utilizado de forma prática, servindo mais para zerar a posição do elemento desejado</p>
-
-            <div id="static"> 
-                <div class="barra"><p>Teste 1</p></div>
-                <div class="barra"><p>Teste 2</p></div>
-                <div class="barra"><p>Teste 3</p></div>
-            </div>       
-        </section>
-
-        <div class="linha"></div>
-
-        <section>
+        <section class="container-sticky">
             <h2>Position Sticky</h2>
-            <p>Essa propriedade é um híbrido entre o fixed e o relative, onde o elemento age como relative até que a rolagem do site o faça atingir o limite da página.
-            Após atingir alguma extremidade do documento, o elemento sticky passa a agir igual um elemento fixed.</p>
+            <p>Essa propriedade é um híbrido entre o fixed e o relative, onde o elemento age como relative até que a rolagem do site o faça atingir o limite da página. Após atingir alguma extremidade do documento, o elemento sticky passa a agir igual um elemento fixed.</p>
 
             <div id="sticky"> 
                 <div class="barra">Teste 1</div>
@@ -310,9 +276,21 @@
         <div class="linha"></div>
 
         <section>
+            <h2>Position Static</h2>
+            <p>O static obedece o fluxo padrão do documento HTML, ignorando padding e margin e mantendo o elemento o máximo na extremidade possível. Não é utilizado de forma prática, servindo mais para zerar a posição do elemento desejado</p>
+
+            <div id="static"> 
+                <div class="barra"><p>Teste 1</p></div>
+                <div class="barra"><p>Teste 2</p></div>
+                <div class="barra"><p>Teste 3</p></div>
+            </div>       
+        </section>
+
+        <div class="linha"></div>
+
+        <section>
             <h2>Position Relative</h2>
-            <p>A propriedade do relative realiza uma sobreposição sobre os elementos da página, porém o espaço que ela ocupava permanece, não sendo substituído por outros elementos.
-            Ela é útil para criar elementos para um ponto de referência, podendo modificá-los para criar uma "âncora".</p>
+            <p>A propriedade do relative realiza uma sobreposição sobre os elementos da página, porém o espaço que ela ocupava permanece, não sendo substituído por outros elementos. Ela é útil para criar elementos para um ponto de referência, podendo modificá-los para criar uma "âncora".</p>
 
             <div id="relative"> 
                 <div class="barra">Teste 1
@@ -333,8 +311,7 @@
 
         <section>
             <h2>Position Absolute</h2>
-            <p>O absolute é a propriedade de maior potência na hierarquia, desrespeitando totalmente o fluxo normal do documento.
-            Ela é o problema da divisão, um rei indomável que não altera seu lugar nem disposição na página.</p>
+            <p>O absolute é a propriedade de maior potência na hierarquia, desrespeitando totalmente o fluxo normal do documento. Ela é o problema da divisão, um rei indomável que não altera seu lugar nem disposição na página.</p>
 
             <div id="absolute">
                 <div class="barra"><p>Teste 1</p></div>
