@@ -9,6 +9,7 @@ Este projeto é um guia interativo desenvolvido para demonstrar, na prática, o 
   * Criação de layouts unidimensionais organizados e fluidos utilizando Flexbox (`flex`, `inline-flex`).
   * Estruturação de layouts bidimensionais precisos através do CSS Grid (`grid`, `inline-grid`).
   * Uso de contextos de formatação avançados, como `flow-root` para encapsulamento seguro de elementos, e comportamento estrutural com `table`.
+  
 * **Controle Espacial com `position`:**
   * Diferenciação entre o fluxo natural da página (`static`) e a manipulação manual de coordenadas.
   * Criação de âncoras e manipulação de espaço com `relative`.
