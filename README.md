@@ -22,4 +22,4 @@ Este projeto é um guia interativo desenvolvido para demonstrar, na prática, o 
 * **HTML5:** Estruturação semântica do documento dividida em blocos de ensino (`<section>`, `<nav>`, `<header>`, `<main>`).
 * **CSS3:** Todo o mapeamento de estilo e layout feito utilizando propriedades puras e nativas do CSS.
 
-**Desenvolvedores: @devcaetan0 & gabrielribeiro-code]**
+**Desenvolvedores: @devcaetan0 & gabrielribeiro-code**
